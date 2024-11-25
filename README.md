@@ -49,55 +49,55 @@ Install Python Libraries Install required Python libraries:
 --- 
 
 📚 Usage
-Start the Tool: Run main.py to initiate the tool.
-Welcome and IP Display: Displays a welcome message and fetches your external IP address.
-Enable Monitor Mode: Automatically activates monitor mode on the wlan0 interface.
-Scan Networks: Captures nearby wireless networks and their details.
-Enrich Data: Maps BSSIDs to manufacturers using the OUI file.
-Save Results: Outputs enriched data to detailed_ap_scan_results.csv.
-Disable Monitor Mode: Restores the interface to its original state.
-Output Details
+- **Start the Tool**: Run main.py to initiate the tool.
+- **Welcome and IP Display:** Displays a welcome message and fetches your external IP address.
+- **Enable Monitor Mode:** Automatically activates monitor mode on the wlan0 interface.
+- **Scan Networks:** Captures nearby wireless networks and their details.
+- **Enrich Data:** Maps BSSIDs to manufacturers using the OUI file.
+- **Save Results:** Outputs enriched data to detailed_ap_scan_results.csv.
+- **Disable Monitor Mode:** Restores the interface to its original state.
 
 
---- 
+---
+**Output Details
 
 The CSV file contains:
 
-BSSID: Access Point Identifier.
-Channel: Wireless channel in use.
-Signal Power: Strength of the signal.
-Encryption: Network privacy details.
-Manufacturer: Derived from OUI data.
+1. **BSSID:** Access Point Identifier.  
+2. **Channel:** Wireless channel in use.
+3. **Signal Power:** Strength of the signal.
+4. **Encryption:** Network privacy details.
+5. **Manufacturer:** Derived from OUI data.
 
 ---
 
 🖥️ Design Overview
 Key Features:
-Welcome Banner: Prints an ASCII art banner and displays the external IP.
-Monitor Mode Management: Uses airmon-ng to enable/disable monitor mode.
-Network Scanner: Executes airodump-ng for data collection.
-Data Enrichment: Maps MAC prefixes to manufacturers using the OUI file.
-CSV Export: Saves all results in a readable, enriched CSV format.
+- **Welcome Banner:** Prints an ASCII art banner and displays the external IP.
+- **Monitor Mode Management:** Uses airmon-ng to enable/disable monitor mode.
+- **Network Scanner:** Executes airodump-ng for data collection.
+- **Data Enrichment:** Maps MAC prefixes to manufacturers using the OUI file.
+- **CSV Export:** Saves all results in a readable, enriched CSV format.
 
 
 ---
 
 Code Flow:
-Welcome and Setup: Displays info and initializes monitor mode.
-Network Scanning: Captures raw wireless network data.
-Data Parsing: Reads and validates the captured CSV.
-Data Enrichment: Maps manufacturer information to BSSIDs.
-Save and Cleanup: Outputs enriched results to a CSV and disables monitor mode.
+- **Welcome and Setup:** Displays info and initializes monitor mode.
+- **Network Scanning:** Captures raw wireless network data.
+- **Data Parsing:** Reads and validates the captured CSV.
+- **Data Enrichment:** Maps manufacturer information to BSSIDs.
+- **Save and Cleanup:** Outputs enriched results to a CSV and disables monitor mode.
 
 
 ---
 
 
 🛡️ Future Enhancements
-GUI Integration: Add a graphical interface for easier user interaction.
-Advanced Pentesting: Include real-time attack simulations.
-Data Formats: Support additional export formats like JSON and SQLite.
-Real-Time Scanning: Add live visualization of network traffic.
+- **GUI Integration:** Add a graphical interface for easier user interaction.
+- **Advanced Pentesting:** Include real-time attack simulations.
+- **Data Formats:** Support additional export formats like JSON and SQLite.
+- **Real-Time Scanning:** Add live visualization of network traffic.
 
 ---
 
@@ -110,15 +110,5 @@ You can find the full license details in the LICENSE file.
 🌟 Disclaimer
 This tool is intended for educational and ethical use only.
 Ensure you have explicit permission before using it for wireless network testing. Misuse of this tool may result in legal consequences.
-
-
-### Instructions:
-- Replace the placeholders (`logxtron`) with your own details.
-- Save this as `README.md` in your repository.
-
-Let me know if you need additional adjustments! 🚀
-
-
-
 
 
