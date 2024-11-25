@@ -34,8 +34,6 @@ Install Dependencies Ensure airmon-ng and airodump-ng are installed:
 
 Download the OUI File Download the latest OUI data from IEEE:
 
----
-
     wget https://standards-oui.ieee.org/oui/oui.txt
 
 ---
@@ -44,7 +42,7 @@ Install Python Libraries Install required Python libraries:
 
     pip install pandas requests
     Run the Tool
-  	python3 main.py
+  	 python3 main.py
 
 --- 
 
@@ -59,7 +57,7 @@ Install Python Libraries Install required Python libraries:
 
 
 ---
-**Output Details
+**Output Details**
 
 The CSV file contains:
 
