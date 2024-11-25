@@ -1,4 +1,4 @@
-# 🚀 Perodua Wireless Pentest Tool
+# 🚀 LX3N Wireless Pentest Tool
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7%2B-brightgreen)
@@ -7,7 +7,7 @@
 ---
 
 ## 📝 Description
-**Perodua Wireless Pentest Tool** is a Python-based utility for wireless network reconnaissance and pentesting.  
+**LX3N Wireless Pentest Tool** is a Python-based utility for wireless network reconnaissance and pentesting.  
 It automates tasks like enabling monitor mode, scanning wireless networks, enriching network data with manufacturer details, and exporting results to CSV.
 
 ---
